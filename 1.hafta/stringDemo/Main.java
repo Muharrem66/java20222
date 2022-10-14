@@ -1,0 +1,17 @@
+package stringDemo;
+
+public class Main {
+
+	public static void main(String[] args) {
+		String mesaj ="Buðün hava çok soðuk";
+		System.out.println(mesaj);
+		
+		
+		System.out.println("Eleman sayýsý :"+ mesaj.length());
+		System.out.println("5. Eleman : "+ mesaj.charAt(4));
+		System.out.println(mesaj.concat("uuuuuuuuuvuuuuuu"));
+		System.out.println(mesaj.startsWith("B"));
+
+	}
+
+}
